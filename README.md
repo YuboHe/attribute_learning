@@ -14,7 +14,7 @@
 *ipython notebook:*
 - pca_check_30attribute.ipynb: check the features(feat_) all assigned for attribute#30 extracted fromm siamese network trained on attr#30 image pathes. Check if they are separated. 
 
-*npy:*
+*.npy:*
 - attribute_predicted.npy:
 - conv4_features.npy:
 - conv4_flattened.npy:
@@ -25,8 +25,12 @@
 - loc6_features_30.npy: *loc6* extracted from iter_1000
 - feat_iter_109000_features_30.npy: *feat* extracted from iter_109000 (siamese network trained on attr#30 image pathes)
 - loc6_iter_109000_features_30.npy: *loc6* extracted from iter_109000
-- 
+- loc6_label_30.npy: label of image patches from attr#30. Order is the same with attribute_location/30.txt
 
+
+*.txt:*
+- train_attribute(_p).txt: information for training set of attr#30.
+- test_attribute(_p).txt: information for test set of attr#30.
 
 
 # caffe
