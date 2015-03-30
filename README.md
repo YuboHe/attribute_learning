@@ -10,4 +10,5 @@
 
 # features/
 
-- attribute_location/ : 100 text files, each of them consists of every image+location that falls into certain attribute label
+-- attribute_location/ : 100 text files, each of them consists of every image+location that falls into certain attribute label
+- 
