@@ -11,7 +11,22 @@
 - attribute_location/ : 100 text files, each of them consists of every image+location that falls into certain attribute label
 - predicted_attributes_large1/ : the image patches assigned for each of the attirbute label
 
-*ipython notebook*
-- pca_check_30attribute.ipynb: check the features(feat_) all assigned for attribute#30 extracted from network trained on siamese architecture & attr#30 image pathes. Check if they are separated. 
+*ipython notebook:*
+- pca_check_30attribute.ipynb: check the features(feat_) all assigned for attribute#30 extracted fromm siamese network trained on attr#30 image pathes. Check if they are separated. 
 
-*npy*
+*npy:*
+- attribute_predicted.npy:
+- conv4_features.npy:
+- conv4_flattened.npy:
+- conv5_features.npy:
+- 
+
+- feat_reduction_features_30.npy: *feat* extracted from iter_1000 (siamese network trained on attr#30 image pathes)
+- loc6_features_30.npy: *loc6* extracted from iter_1000
+- feat_iter_109000_features_30.npy: *feat* extracted from iter_109000 (siamese network trained on attr#30 image pathes)
+- loc6_iter_109000_features_30.npy: *loc6* extracted from iter_109000
+- 
+
+
+
+# caffe
