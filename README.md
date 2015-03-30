@@ -10,5 +10,6 @@
 
 # features/
 
-> folders
-attribute_location/ : 100 text files, each of them consists of every image+location that falls into certain attribute label
+*folders:*
+- attribute_location/ : 100 text files, each of them consists of every image+location that falls into certain attribute label
+- 
