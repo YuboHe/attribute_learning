@@ -1,8 +1,7 @@
-# attribute_learning
 
 
 
-> code/
+# code/
 - segmentation.py: original images -> cropped images (with only birds)
 - cluster.py: after kmeans, clustered feature -> image patches from each of the attribute
 - create_siamese_dataset.py: attribute location+images -> random training/test pairs
@@ -11,4 +10,4 @@
 
 # features/
 
-- attribute_location/
+- attribute_location/ : 100 text files, each of them consists of every image+location that falls into certain attribute label
