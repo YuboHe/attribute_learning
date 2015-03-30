@@ -9,4 +9,6 @@
 - extract_features.py: pretrained network -> certain layer features
 - extract_features_percluster.py: trained network -> certain layer features from certarin attribute label
 
-# 
+# features/
+
+- attribute_location/
