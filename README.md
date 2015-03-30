@@ -32,3 +32,11 @@
 
 
 # caffe
+*path: local/caffe_siamese_attribute/examples/attribute*
+- siamese_imagenet_train_val.prototxt: siamese architecture. relu5(p)->loc6(p)->contrastive loss
+- siamese_imagenet_train_val2.prototxt: (now using) siamese architecture. relu5(p)->loc6(p)->feat(2-d)->contrastive loss
+- siamese_imagenet_solver.prototxt/train_mnist_siamese.sh: corresponding stuff
+- siamese_deploy.prototxt: siamese architecture with loss output
+- siamese_imagenet_deploy.prototxt: imagenet architecture(input:data&loc) with loc6 output
+- imagenet_deploy2.prototxt: imagenet architecture(input:data&loc) with feat output
+- iter_*.caffemodel/solverstate: trained from siamese_imagenet_train_val2.prototxt
